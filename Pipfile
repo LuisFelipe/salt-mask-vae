@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+pandas = "*"
+matplotlib = "*"
+jupyterlab = "*"
+ipywidgets = "*"
+pillow = "*"
+scikit-image = "*"
+seaborn = "*"
+numpy = "==1.16.0"
+tqdm = "*"
+scikit-learn = "*"
+pyyaml = "*"
+blinker = "*"
+learn-flow = "*"
+ipympl = "*"
+widgetsnbextension = "*"
+tensorflow = "==1.14.0"
+invoke = "*"
+
+[requires]
+python_version = "3.6"
+
+[dev-packages]
+pyflakes = "*"
+pycodestyle = "*"
